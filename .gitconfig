@@ -1,0 +1,11 @@
+[user]
+	email = wataru.s0208@gmail.com
+	name = Wataru Sugimoto
+[color]
+	ui = true
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	editor = vim -c \"set fenc=utf-8\"
+	ignorecase = false
