@@ -16,6 +16,8 @@ set showcmd
 " 見た目系
 " 行番号を表示
 set number
+" カーソルが何行目に置かれているかを表示する
+set ruler
 " 現在の行を強調表示
 set cursorline
 " 現在の行を強調表示（縦）
