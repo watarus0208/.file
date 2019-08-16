@@ -8,3 +8,13 @@
 	branch = auto
 [core]
 	editor = vim -c \"set fenc=utf-8\"
+[alias]
+  st = status
+  cm = commit
+  br = branch
+  co = checkout  
+  # いい感じのグラフでログを表示
+  logg = log --graph --all --decorate
+  log0 = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)― %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+  # 行ごとの差分じゃなくて、単語レベルでの差分を色付きで表示する
+  difff = diff --word-diff
